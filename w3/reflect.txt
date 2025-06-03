@@ -1,0 +1,24 @@
+///////////////////////////////////////////////////////////////////////////
+Name: Chetan Arora
+SENECA Email: carora18@myseneca.ca
+Student ID: 100976240
+Section: ZFF
+Date: Jun 1 2024
+/////////////////////////////////////////////////////////////////////////////
+I have done all the coding by myself and only copied
+the code that my professor provided to complete my workshops and assignments.
+////////////////////////////////////////////////////////////////////////////*/
+
+OBJECT HANDLING IN CPP:- In this workshop, I brushed up the basics of object handling in C++ which is an object-oriented programming language. Key Takeaways and Skills Learned
+Objects, Using Classes:- In C++, Classes are like a blueprint of an Object. An object is a hunk of data — several member variables and some member functions. Member variables contain the data and member functions define the behavior.
+Controlling the access in the classes, these are the keywords private, public.
+private: Member is declared as private means it will only be accessed by the class itself.
+Public: The properties declared as public are accessible from outside of the class.
+Class members are private by default. From outside of the class, to expose public members, we can use dot (.) to access them.
+Member functiones are two Types:-
+Query Functions: Functions that do not alter the state of the object. Usually they are qualified by the const keyword, to denote this non mutating behavior.
+Alter Functions: These functions might alter the value of the member variabels. For example they can set special values to their member variables or make them cleared.
+I used several member functions of iostream to nicely format output with cout in this workshop. These will be public functions as they can be accessable directly:
+These functions are for setting and unsetting format flags: setf —Set format flag. For example, cout. But this is because setf(ios::left) tells Cout_ALL to align left with cout. setf(ios::fixed) //Fixed-point notation.
+For other format options, setf and unsetf handle alignment of text and format of text, width sets the spacing, fill fills the remaining blanks with desired character, and precision sets the number of decimal places for floating-point numbers.
+This workshop taught me a lot about OOP in C++ especially writing classes and access control and also about formatted output. This requisites are important for writing C++ Programs in clear, efficient and easy maintainable control.

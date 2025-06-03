@@ -1,0 +1,13 @@
+///////////////////////////////////////////////////////////////////////////
+Name: Chetan Arora
+SENECA Email: carora18@myseneca.ca
+Student ID: 100976240
+Section: ZFF
+Date: May 25 2024
+/////////////////////////////////////////////////////////////////////////////
+I have done all the coding by myself and only copied
+the code that my professor provided to complete my workshops and assignments.
+////////////////////////////////////////////////////////////////////////////*/
+
+
+In this workshop I learn the C++ fundamental. I was able to learn how to use dynamic memory, which can compile without wasting memory and is more versatile than static memory. Dynamic memory, as opposed to static memory, can be allotted as much memory as the user desires or as much as the amount of the data. For instance, in this LAB session, I entered the employee name into a CSV file using "fscanf," but because I didn't know the size of the employee name, I got it using "char name [128]". I have to use 128bites even if the employee's name is lower than 128 since this number 128 is a randomly defined size.This will be a waste of memory.When I knew the number of records in the file and the size of the employee's name, I only had to allocate the corresponding amount of memory using "new." "new" can enter the type and size that you want to assign to a pointer-type variable. For example, "employees = new struct Employee[noOfEmployees + 1]" or "emp->m_name = new char[strlen(name) + 1]". It is important to note that when assigning a character array, I must assign one more space than the string size. The reason is to enter a null value at the end.If I allocated dynamic memory, I must delete the memory that I allocated before terminating. If memory is not deleted, a memory leak error will occur. I use "delete[]' to delete dynamic memory, such as "delete[] employees[i].m_name" and "delete[] employees". In addition, when deleting memory, it is necessary to delete the memory in the reverse order of the order in which it was initially allocated. This is because, in this workshop, I dyanamically allocated an array of employees into the Employee pointer, then allocated to each employee array the name size.

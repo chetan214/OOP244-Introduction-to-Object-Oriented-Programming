@@ -1,0 +1,20 @@
+///////////////////////////////////////////////////////////////////////////
+Name: Chetan Arora
+SENECA Email: carora18@myseneca.ca
+Student ID: 100976240
+Section: ZFF
+Date: May 20 2024
+/////////////////////////////////////////////////////////////////////////////
+I have done all the coding by myself and only copied
+the code that my professor provided to complete my workshops and assignments.
+////////////////////////////////////////////////////////////////////////////*/
+
+
+In this workshop, our institute provides an approximate 300-line code in C++, and my task is to distribute the code into pieces and save them to the following files. **shoppingListApp.cpp**, **File.cpp**, **ShoppingList.cpp**, **ShoppingRec.cpp**, and **Utils.cpp** & Header files **File.h**, **ShoppingList.h**, **ShoppingRec.h**, and **Utils.h**. In this workshop, code is divided into parts that have memory or are without memory. In header files, the code is without memory, whereas CPP carries code that has memory.
+ 
+Other benefits are:
+1) organized: code is organized in a good manner.
+2) Hide the details: By this technique, unnecessary things are hidden.
+3) Speed up the process: By dividing into many parts, the speed of application becomes faster than in the previous one.
+
+In this workshop, the mean thing is that it covers all the components of C programming and gets a good startup in C++. Boolean is also added in this true and false, which was not available in C. It also enhances knowledge about the C++ programming language.The code is about shopping cart, to take input from user and give the output according to it.

@@ -1,0 +1,14 @@
+///////////////////////////////////////////////////////////////////////////
+Name: Chetan Arora
+SENECA Email: carora18@myseneca.ca
+Student ID: 100976240
+Section: ZFF
+Date: Jun 10 2024
+/////////////////////////////////////////////////////////////////////////////
+I have done all the coding by myself and only copied
+the code that my professor provided to complete my workshops and assignments.
+////////////////////////////////////////////////////////////////////////////*/
+
+I learned a different aspect of C++ through this workshop and class. This time, I could learn how to treat objects as they were in object-oriented programming.I have learned about constructor and the destructor that used in this workshops. Constructor is automatically called when the object is created. For the constructor implementation, you have several options. The to be use of constructor (overload) and it has no return type. Additionally I can create a constructor that takes the parameters and sets the value to a member variable or I can instantiate the default values and create the default constructor that instantiates the default values that I set, which will be instantiated when the constructor is called. I Overloaded the Canister object constructor in 3 use cases for the purpose of this workshop in LAB. So, the value had an initialized value based on what parameter you enter. For instance, Canister(), Canister(const char *contentName) or Canister(double height, double diameter, const char *contentName = nullptr). Annnd a destructor is a function that is automatically called when an object that created, is destroyed. Kill the constructor that was invoked and initialized. But if some object with dynamic memory is there, then it should be deleted before the constructor is destroyed. That is why I used the destructor to deallocate memory. The destructor has the format of the constructor but has a '~' in front of object name, e.g., "~Canister()". Destructor in C++Destructor has no return type and has no parameters.
+
+I have also learned about the keyword called this, during this workshop. Certainly, you are already used to "this" and it acts as a reference to the object on which this code is called. When the name of the member variable is similar to the name of the parameter, you can use the this keyword to make the code readable. It can also be handy for copy one object to another, or clone it with reference. The operator of a returned object is the pointer For instance, "return *this". It's good be be able to explicitly state which object this is when using the this keyword. Thus, in the Pour part of this workshop, I employed the this keyword to make it more readable that which object is pouring to another object. For instance, give. m_contentVolume -= (this->capacity() - this->volume());

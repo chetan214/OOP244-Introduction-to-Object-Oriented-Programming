@@ -1,0 +1,29 @@
+/*/////////////////////////////////////////////////////////////////////////
+                          Workshop - #5
+Full Name  : Chetan Arora
+Student ID#: 100976240
+Email      : carora18@myseneca.ca
+Section    : ZFF
+Date       : 18 Jun 2024
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+/////////////////////////////////////////////////////////////////////////*/
+
+Ans:- In this workshop, I primarily learned about helper functions and member operators, which are crucial concepts for designing robust and user-friendly class interfaces in C++. Here is a detailed explanation using the provided Account class as an example.
+
+Member Operators
+
+The first is using member operators, which are overloaded operators within a class, and allow me to use standard operators (+ / % - etc ) on instances of the class. This gives the class a sense of simplicity and ease of use.
+
+Member Operators are Valuable
+
+Usability: Overloaded operators provide shorthand notation to perform typical operations used in class objects. I could add two Account objects balances for instance with +
+Improved Readability: Writing overloaded operators contributes to a more readable codebase. I work with operator operators instead of calling specific methods, which becomes more expressive code.
+Flexibility : Operators like +, -, <, >> offer enormous amount of flexibility where you can make objects interact with each other in esoteric manner and still keep the interface clean.
+Friend functions are functions that not a member of the class but can access its private members. A > This makes possible operations that need the state of the class but without being part of this class.
+Additional Functionality: Helper functions are additional functions that expand the functionality of class (add functionality; not add a separate/new functionality).
+Access to private members: A friend function can access the private members of the class and offers to perform related operations which have restricted access otherwise.

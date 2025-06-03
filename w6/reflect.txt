@@ -1,0 +1,20 @@
+/*/////////////////////////////////////////////////////////////////////////
+                          Workshop - #6
+Full Name  : Chetan Arora
+Student ID#: 100976240
+Email      : carora18@myseneca.ca
+Section    : ZFF
+Date       : 9 July 2024
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+/////////////////////////////////////////////////////////////////////////*/
+
+Ans:- During Workshop 6 we learnt about file handling, dynamic memory management and objects in c++ as well. Here I used ifstream and ofstream to do file operations for reading text files - like this in void TextFile::loadText(), from my code. for managing dynamic memory in used to holding a text lines:proper alloction and deallocation it made the example - delete[] m_value (Line::~Line()) so no memory leak notes I practiced using constructors, destructors and overloaded operators in that class (when learning about I/O streams) which helped me learn the Rule of Three.
+
+Another obstacle was using TextFile::setNoOfLines() correctly within the design of my code. IMMEDIATE AND IMPORTANT: you also had to deal with dynamic memory (without leaks!) - and that was handled in the TextFile&TextFile::operator=(const Textfile &src). We had to reset the pointers and memory allocations very carefully not run into any problems.
+
+In conclusion, this workshop improved my experience when using file and dynamic memory in C++ greatly. it also drove home the point that memory management was important and along with it, good object-oriented design - an axiom around which you could technically write efficient c++ code.
