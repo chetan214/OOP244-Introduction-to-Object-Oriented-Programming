@@ -1,0 +1,14 @@
+In line number 35 of your output:
+The output should be:
+Title: The Story of My Experiments with Truth
+               ^
+But your output is: 
+Title: The Storey of My Experiments with Truth
+               ^
+
+Unmatched character details:
+The character in column 16 is supposed to be:
+  [y] ASCII code(121)
+but you printed
+  [e] ASCII code(101)
+
