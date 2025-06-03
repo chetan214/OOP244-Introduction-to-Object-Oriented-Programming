@@ -1,0 +1,20 @@
+/*/////////////////////////////////////////////////////////////////////////
+                          Workshop - #7 (P1)
+Full Name  :Chetan Arora
+Student ID#:100976240
+Email      :carora18@myseneca.ca
+Section    :ZFF
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+/////////////////////////////////////////////////////////////////////////*/
+
+		I learned a lot about C++ inheritance in this workshop, one of the basic foundations of the language. In the past, I used data members and public member functions with another classes Run them together. Finally, using inheritance means I can inherit the member variables and functions of a parent class in child class without any hassle. It is defined by the inheritance types, e.g. public, private and protected. The class who provides the inheritance is referred to as parent or base class, and one which inherits it(child) are called child or derived. As a result, the derived class forms an "is-a" relationship with their base classes and thereby inherit attributes/data fields / functions from within in addition to defining its own.
+
+Class Truck : public MotorVehicle is the use of colons, keywords and parent class name to define a derived class. Inheritance has different rules with respect to constructors and destructors. Base class constructor is called first and then derived the next. When the instance is getting terminated, then first derived class destructor gets called and base class destructor. Derived class constructors can also explicitly invoke this or super (base)class constructor, for example: Truck(const char *_license int _year double _capacity const char *_address): MotorBase(_name),numberOfSeats(_) {}
+
+I also got help from the workshop in overloading input and output functions that were inherited and used at derived class level. Linked base and derived classes of equal roles, stopped duplicating variable and funtion declaration with inheritance. This article has helped me to have an even keener understanding of inheritance so my complexities are only those of building a structure that makes sense cannot wait for itvenir.
+
+During Milestone 1, I discovered how to accept user input and task with strings as well as char arrays. Even though the insight into how you could implement getcstr without strings was fun, using strings are just so much more convenient and enjoyable. I now know of the utility of strings in C++, and I am able to comfortably handle buffers, gain insight on their function as well as what information is contained inside them.

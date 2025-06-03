@@ -1,0 +1,19 @@
+/*//////////////////////////////////////////////////////////////////////////
+                        Workshop - #10
+Name: Chetan Arora
+Email: carora18@myseneca.ca
+Student ID: 100976240
+Section: ZFF
+Date:  Aug 8 2024
+/////////////////////////////////////////////////////////////////////////////
+I have done all the coding by myself and only copied
+the code that my professor provided to complete my workshops and assignments.
+////////////////////////////////////////////////////////////////////////////*/
+
+From this workshop and achievement of the project milestones, the following aspects of object oriented programming (OOP) are understood: This workshop pointed out three concepts as critical to the object-oriented programming; encapsulation, inheritance, and polymorphism. I was able to practice on how to encapsulate data and functions by using different classes like, Car, Student and Employee. I also employed inheritance by developing these classes from the base class ReadWrite, showed polymorphism by functions display and read. 
+
+I highlighted that one of the more difficult aspects of the project was correct memory management, although in the case of the Collection template, memory had been allocated dynamically. Appreciating and applying the Rule of Three which includes the destructor, copy constructor and copy assignment operator was important in order to prevent memory leaks and also perform a deep copy of objects. 
+
+Another issue that was encountered was the codification of the search function in a way that is not case-sensitive through templates. This was a little difficult especially when it came to programming the templates in C++ though after some time, it was very rewarding especially when generalizing the search function. 
+
+This workshop in general enhanced my knowledge of the key OOP concepts and enhanced problem-solving abilities since they demanded critical analysis of the class design, memory management, and template programming. These are basic skills in software development and shall be useful in other projects in the future. 

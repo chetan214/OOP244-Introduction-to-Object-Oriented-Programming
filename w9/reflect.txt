@@ -1,0 +1,32 @@
+/*//////////////////////////////////////////////////////////////////////////
+                        Workshop - #9
+Name: Chetan Arora
+Email: carora18@myseneca.ca
+Student ID: 100976240
+Section: ZFF
+Date:  July 31 2024
+/////////////////////////////////////////////////////////////////////////////
+I have done all the coding by myself and only copied
+the code that my professor provided to complete my workshops and assignments.
+////////////////////////////////////////////////////////////////////////////*/
+
+For that purpose, I had two classes Text and HtmlText in the workshop where we wrote polymorphic code.
+
+Text Class:
+Usage: Allows manipulation of plain text that is drawn from a file and displayed.
+Method: provides a write method but the implementation is virtual so derived classes can change its behavior.
+
+HtmlText Class:
+Behaviours: Functionality, it extends the Text class with HTML formatting;
+Method: write - This is an override of the default writing method that will convert plain text into HTML complete with titles and formatting.
+
+Polymorphism in Action:
+The write method can be written differently depending on the type of object: polymorphism
+Basically, write is a method of Text object that displays plain text.
+HtmlText overrides the write method, so any call to write on an HtmlText object is generating HTML content.
+
+Implementation:
+In the main function:
+Text: Text Object reads and display a text file.
+The same file is read by a HtmlText object and written but the output contains formatting in an HTML file.
+This supports polymorphism to apply the write method correctly (oppose that object is a Text or HtmlText). This shows how polymorphism allows a single method name to deal with different types of objects in an effective and efficient manner.

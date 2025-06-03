@@ -1,0 +1,20 @@
+/*/////////////////////////////////////////////////////////////////////////
+                          Workshop - #8 (P2)
+Full Name  :Chetan Arora
+Student ID#:100976240
+Email      :carora18@myseneca.ca
+Section    :ZFF
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+/////////////////////////////////////////////////////////////////////////*/
+
+	For this workshop and Milestone 2, I came to understand more in inheritance from the last week's course material. This also gave me exposure to C++ polymorphism, which I found interesting. I came to know about virtual functions in C++ for the very first time. A function is declared with "virtual" keyword, to enable a subclass provide the implementation for its base class. You have to override a virtual function by base class in derived as you already know the all other things like your return types, params and what is the name of our function. Which allows dynamic binding, a determination at runtime as to which function should be called by the program.
+
+In addition, we can also have pure virtual functions by putting some special keywords with the virtual function We declare a pure virtual function as :virtual void getSpecs( istream & istr ) = 0; A class that contains a pure virtual function is called an abstract base class. It is just a class without any function definition, and we cannot create an instance of this class. Instead, it is a template to be overridden in derived classes. At this point, because the pure virtual function is overridden in a derived class it becomes "concrete" and can be instantiated.
+
+Another thing to take into account when using inheritance is the destructor. If classes are derived from each other the destructor should be virtual so that both base and the derieved class objects can destroy properly.
+
+Although pure virtual functions, abstract base classes and concrete classes may sound like challenging topics at first glance; I was able to demystify these concepts for myself by really practicing them out during workshop as well Milestone 2. Highly satisfying to build an abstract base class and then develop many concrete classes for different types, each defining the functions appropriately given that use case.
